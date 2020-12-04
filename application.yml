@@ -17,4 +17,4 @@ spring:
     producer:
       bootstrap-servers: localhost:9092
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: com.eatza.review.dto.ReviewRequestDtoSerializer
+      value-deserializer: com.eatza.restaurantsearch.dt.ReviewRequestDtoDeserializer
