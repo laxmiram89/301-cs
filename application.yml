@@ -6,15 +6,4 @@ eureka:
 user: user
 password: password
 
-spring:
-  kafka:
-    consumer:
-      bootstrap-servers: localhost:9092
-      group-id: group-id
-      auto-offset-reset: earliest
-      key-deserializer: com.eatza.restaurantsearch.dto.ReviewRequestDtoDeserializer
-      value-deserializer: com.eatza.restaurantsearch.dto.ReviewRequestDtoDeserializer
-    producer:
-      bootstrap-servers: localhost:9092
-      key-serializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-serializer: com.eatza.review.dto.ReviewRequestDtoSerializer
+
